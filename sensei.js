@@ -37,7 +37,8 @@ class Sensei extends Ninja {
         super(name);
         this.health = 200;
         this.speed = 10;
-        this.strength = 10;   
+        this.strength = 10;  
+        this.wisdom = 100; 
     }
     
     speakWisdom() {
@@ -51,3 +52,4 @@ const master = new Sensei("Mr Miyagy");
 master.showStats();
 master.speakWisdom();
 master.showStats();
+console.log(master.wisdom);
